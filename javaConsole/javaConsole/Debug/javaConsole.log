@@ -1,0 +1,12 @@
+﻿빌드 시작: 2016-12-12 오전 10:57:18
+     1>2 노드의 "D:\Work\JAVA\javaConsole\javaConsole\javaConsole.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Java\jdk1.8.0_111\include\win32" /I"C:\Program Files (x86)\Java\jdk1.8.0_111\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JAVACONSOLE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt javaCosole.cpp
+         javaCosole.cpp
+     1>d:\work\java\javaconsole\javaconsole\javacosole.cpp(42): error C4716: 'Java_Common_Console_fontColor' : 값을 반환해야 합니다.
+     1>d:\work\java\javaconsole\javaconsole\javacosole.cpp(37): error C4716: 'Java_Common_Console_backgroundColor' : 값을 반환해야 합니다.
+     1>"D:\Work\JAVA\javaConsole\javaConsole\javaConsole.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.76

@@ -1,0 +1,83 @@
+package MessageBox;
+
+import Common.Console;
+
+
+
+public class MessageBox {
+	final static int BT_OK = 1;
+	final static int BT_YN = 2;
+	int button = 1;
+	
+	public void print(String caption,String mgs, int mode)
+	{
+		if(set_button(mode))
+		{
+			return;
+		}
+		String left_space = "│      ";
+		String right_space = "      │";
+		String left_top = "┌──────";
+		String right_top = "──────┐";
+		String left_bot = "└──────";
+		String right_bot = "──────┘";
+		//콘솔의 크기를 구해와 가운데 출력하면 좋을것같은데... 콘솔 크기 구하는게없음.
+		if(caption == "")
+		{
+			caption = "Error";
+		}
+		
+		int cap_len = caption.length();
+		int msg_len = mgs.length();
+		int lenth =cap_len;
+		
+		if(cap_len < msg_len)
+			lenth = msg_len;
+
+		//top
+		System.out.print(left_top);
+		for(int i = 0 ; i < lenth ; i++)
+			System.out.print("─");
+		System.out.println(right_top);
+		
+		//caption
+		System.out.print(left_space);
+		System.out.print(caption);
+		System.out.println(right_space);
+		
+		
+		//space
+		System.out.print(left_space);
+		for(int i = 0 ; i < lenth ; i++)
+			System.out.print(" ");
+		System.out.print(right_space);
+		System.out.println("");
+		
+		//message
+		
+		
+		System.out.print(left_space);
+		System.out.print(caption);
+		System.out.println(right_space);
+		
+		
+	}
+	
+	boolean set_lenth(int _width)
+	{
+		
+		
+		return true;
+	}
+
+	boolean set_button(int count)
+	{
+		if(count != 1 || count != 2)
+		{
+			return false;
+		}
+		button = count;
+		
+		return true;
+	}
+}

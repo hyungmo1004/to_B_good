@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+import Common.Console;
+
+
+public class Console_Message_Box {
+	
+	
+	public static void main(String[] argv)
+	{
+		//Console con = new Console();
+		int x,y;
+		
+		System.out.println("메세지 테스트 입니다.");
+		System.out.println("어떻게 해야할까요 ... ? ");
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package dll;
+
+public class DLL 
+{
+	{
+		System.loadLibrary(DLLname);
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+import Common.Console;
+import MessageBox.MessageBox;
+
+
+public class Console_Message_Box {
+
+	
+	public static void main(String[] argv)
+	{
+		Console con = new Console();
+		MessageBox msg = new MessageBox();
+		int x,y;
+		
+
+		msg.print("test", "Message", 1);
+		
+	}
+
+}

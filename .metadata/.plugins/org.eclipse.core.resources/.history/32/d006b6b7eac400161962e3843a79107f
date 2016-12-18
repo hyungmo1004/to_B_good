@@ -1,0 +1,65 @@
+package MessageBox;
+
+import Common.Console;
+
+
+
+public class Box {
+	final static int gs_Button_OK = 1;
+	final static int gs_Button_Cancel = 2;
+	int button = 1;
+	int size_x = 10;
+	int size_y = 10;
+	int pos_x = 0;
+	int pos_y = 0;
+	int color = 15;
+	
+	
+	public void print(String caption,String msg, int mode)
+	{
+
+	}
+	
+	public void set_caption(String cap)
+	{
+		
+	}
+
+	//모냥 설정
+	public void set_form(String str_form )
+	{
+		
+		
+	}
+	
+	//크기 설정  최소 10,10
+	public void set_size(int x,int y)
+	{
+		if(x < 10)
+			size_x = 10;
+		else
+			size_x = x;
+		
+		if(y < 10)
+			size_y = 10;
+		else
+			size_y = y;		
+	}
+	
+	//위치 설정
+	public void set_position(int x,int y)
+	{
+		pos_x = x;
+		pos_y = y;
+	}
+	
+	public void set_color(int num)
+	{
+		color = num;	
+	}
+	
+	public void set_button(int count)
+	{
+
+	}
+}

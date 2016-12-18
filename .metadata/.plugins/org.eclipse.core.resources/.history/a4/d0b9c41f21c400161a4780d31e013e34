@@ -1,0 +1,10 @@
+package dll;
+
+public class DLL 
+{
+	{
+		System.loadLibrary("DLLname");
+	}
+	public native void printTest();
+
+}

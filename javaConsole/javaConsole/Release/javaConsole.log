@@ -1,0 +1,25 @@
+﻿빌드 시작: 2016-12-14 오후 2:19:17
+     1>2 노드의 "D:\Work\JAVA\javaConsole\javaConsole\javaConsole.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Java\jdk1.8.0_111\include\win32" /I"C:\Program Files (x86)\Java\jdk1.8.0_111\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D JAVACONSOLE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt javaCosole.cpp
+         javaCosole.cpp
+     1>javaCosole.cpp(23): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>javaCosole.cpp(39): warning C4244: '인수' : 'jint'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>javaCosole.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\JAVA\javaConsole\Release\javaConsoleX86.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Work\JAVA\javaConsole\Release\javaConsoleX86.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\JAVA\javaConsole\Release\javaConsoleX86.lib" /MACHINE:X86 /SAFESEH /DLL Release\javaCosole.obj
+            D:\Work\JAVA\javaConsole\Release\javaConsoleX86.lib 라이브러리 및 D:\Work\JAVA\javaConsole\Release\javaConsoleX86.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         javaConsole.vcxproj -> D:\Work\JAVA\javaConsole\Release\javaConsoleX86.dll
+       PostBuildEvent:
+         copy /Y "D:\Work\JAVA\javaConsole\Release\javaConsoleX86.dll" "D:\Work\JAVA\javaConsole\lib\javaConsoleX86.dll"
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+     1>"D:\Work\JAVA\javaConsole\javaConsole\javaConsole.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.92

@@ -1,0 +1,49 @@
+package MessageBox;
+
+import Common.Console;
+
+
+
+public class MessageBox {
+	final static int BT_OK = 1;
+	final static int BT_YN = 2;
+	int button = 1;
+	
+	
+	
+
+	public void print(String caption,String msg, int mode)
+	{
+
+	}
+
+	void set_form(String str_form,int num )
+	{
+		
+		
+	}
+	
+	void set_size(int x,int y)
+	{
+		
+		
+	}
+	
+	boolean set_lenth(int _width)
+	{
+		
+		
+		return true;
+	}
+
+	boolean set_button(int count)
+	{
+		if(count != 1 || count != 2)
+		{
+			return false;
+		}
+		button = count;
+		
+		return true;
+	}
+}

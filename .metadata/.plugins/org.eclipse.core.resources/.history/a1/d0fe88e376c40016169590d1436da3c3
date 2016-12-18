@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+
+public class Console_Message_Box {
+	
+	
+	public static void main(String[] argv)
+	{
+		
+	}
+
+}
