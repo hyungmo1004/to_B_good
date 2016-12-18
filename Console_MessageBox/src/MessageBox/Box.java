@@ -91,11 +91,13 @@ public class Box {
 	
 	public void setStringColor(int num)
 	{
-		str_color = num;	
+		str_color = num;
+		str_color = num;
 	}
 	
 	public void setButton(int count)
 	{
-
+		this.button=1;
+			///테스트다 테스트 !! 
 	}
 }
