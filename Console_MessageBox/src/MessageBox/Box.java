@@ -91,7 +91,7 @@ public class Box {
 	
 	public void setStringColor(int num)
 	{
-		color = num;	
+		str_color = num;	
 	}
 	
 	public void setButton(int count)
