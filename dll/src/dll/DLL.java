@@ -12,6 +12,7 @@ public class DLL
 		DLL dll = new DLL();
 		
 		dll.printTest();
+		dll.printTest();
 	}
 
 }
