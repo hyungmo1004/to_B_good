@@ -98,6 +98,6 @@ public class Box {
 	public void setButton(int count)
 	{
 		this.button=1;
-			///테스트다 테스트 !! 
+		
 	}
 }
