@@ -7,7 +7,7 @@ import java.util.Scanner;
 import Common.Console;
 
 class Point 
-{
+{ss
 	int x,y;
 	public Point(int x,int y)
 	{
@@ -29,7 +29,7 @@ public class Brick
 	public Brick()
 	{
 		point = new Point[4][4];
-		setBrick('■',' ');
+		setBrick('�뼚',' ');
 		setColor(Color.WHITE,Color.BLACK);
 	}
 	public void setColor(Color FontColor,Color BackgroundColor)
@@ -69,50 +69,50 @@ public class Brick
 		Console cls = new Console();
 		Brick[] brick = new Brick[7];
 		for(int i=0;i<7;i++)brick[i] = new Brick();
-		// 사각형
+		// �궗媛곹삎
 		brick[0].setColor(Color.LIGHTYELLOW, Color.BLACK);
 		brick[0].setBrick(0, new Point(0,0), new Point(1,0), new Point(0,1), new Point(1,1));
 		brick[0].setBrick(1, new Point(0,0), new Point(1,0), new Point(0,1), new Point(1,1));
 		brick[0].setBrick(2, new Point(0,0), new Point(1,0), new Point(0,1), new Point(1,1));
 		brick[0].setBrick(3, new Point(0,0), new Point(1,0), new Point(0,1), new Point(1,1));
 		
-		// 일자
+		// �씪�옄
 		brick[1].setColor(Color.LIGHTJADE, Color.BLACK);
 		brick[1].setBrick(0, new Point(0,0), new Point(0,1), new Point(0,2), new Point(0,3));
 		brick[1].setBrick(1, new Point(0,0), new Point(1,0), new Point(2,0), new Point(3,0));
 		brick[1].setBrick(2, new Point(0,0), new Point(0,1), new Point(0,2), new Point(0,3));
 		brick[1].setBrick(3, new Point(0,0), new Point(1,0), new Point(2,0), new Point(3,0));
 		
-		//�ݴ�����
+		//占쌥댐옙占쏙옙占쏙옙
 		brick[2].setColor(Color.LIGHTBLUE, Color.BLACK);
 		brick[2].setBrick(0, new Point(0,0), new Point(0,1), new Point(0,2), new Point(1,0));
 		brick[2].setBrick(1, new Point(0,0), new Point(1,0), new Point(2,0), new Point(2,1));
 		brick[2].setBrick(2, new Point(1,0), new Point(1,1), new Point(1,2), new Point(0,2));
 		brick[2].setBrick(3, new Point(0,0), new Point(0,1), new Point(1,1), new Point(2,1));
 		
-		//�����
+		//占쏙옙占쏙옙占�
 		brick[3].setColor(Color.LIGHTWHITE, Color.BLACK);
 		brick[3].setBrick(0, new Point(1,0), new Point(1,1), new Point(1,2), new Point(0,0));
 		brick[3].setBrick(1, new Point(0,1), new Point(1,1), new Point(2,1), new Point(2,0));
 		brick[3].setBrick(2, new Point(0,0), new Point(0,1), new Point(0,2), new Point(1,2));
 		brick[3].setBrick(3, new Point(0,0), new Point(1,0), new Point(2,0), new Point(0,1));
 		
-		// ��������
+		// 占쏙옙占쏙옙占쏙옙占쏙옙
 		brick[4].setColor(Color.LIGHTRED, Color.BLACK);
 		brick[4].setBrick(0, new Point(0,0), new Point(0,1), new Point(1,1), new Point(1,2));
 		brick[4].setBrick(1, new Point(1,0), new Point(2,0), new Point(0,1), new Point(1,1));
 		brick[4].setBrick(2, new Point(0,0), new Point(0,1), new Point(1,1), new Point(1,2));
 		brick[4].setBrick(3, new Point(1,0), new Point(2,0), new Point(0,1), new Point(1,1));
 		
-		// �޹���
+		// 占쌨뱄옙占쏙옙
 		brick[5].setColor(Color.LIGHTGREEN, Color.BLACK);
 		brick[5].setBrick(0, new Point(1,0), new Point(1,1), new Point(0,1), new Point(0,2));
 		brick[5].setBrick(1, new Point(0,0), new Point(1,0), new Point(1,1), new Point(2,1));
 		brick[5].setBrick(2, new Point(1,0), new Point(1,1), new Point(0,1), new Point(0,2));
 		brick[5].setBrick(3, new Point(0,0), new Point(1,0), new Point(1,1), new Point(2,1));
 		
-		// T����
-		brick[6].setBrick('※',' ');
+		// T占쏙옙占쏙옙
+		brick[6].setBrick('��',' ');
 		brick[6].setColor(Color.LIGHTREDDISH, Color.BLACK);
 		brick[6].setBrick(0, new Point(0,1), new Point(1,1), new Point(2,1), new Point(1,0));
 		brick[6].setBrick(1, new Point(0,0), new Point(0,1), new Point(0,2), new Point(1,1));
